@@ -18,6 +18,7 @@ void setup() {
   SensorData waterData = new SensorData("water", xml);
   waterData.printInfo();
   ArrayList<PVector> waterDailyValues = waterData.getDailyValues();
+  ArrayList<String>  waterDailyDates = waterData.getDailyDates();
 }
 
 
