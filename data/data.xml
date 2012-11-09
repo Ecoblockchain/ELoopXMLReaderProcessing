@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<foo>
+<data id="0">
+	<tag>ozone</tag>
+	<current_value at="2010-11-10T20:14:23.185123Z">358</current_value>
+</data>
+<data id="1">
+	<tag>volatile organic compound</tag>
+	<current_value at="2010-11-10T20:15:23.185123Z">293</current_value>
+</data>
+<data id="2">
+	<tag>water</tag>
+	<current_value at="2010-11-10T20:16:23.185123Z">224</current_value>
+</data>
+<data id="3">
+	<tag>temperature</tag>
+	<current_value at="2010-11-10T20:17:23.185123Z">0</current_value>
+</data>
+<data id="4">
+	<tag>humidity</tag>
+	<current_value at="2010-11-10T21:14:23.185123Z">128</current_value>
+</data>
+<data id="5">
+	<tag>soil</tag>
+	<current_value at="2010-11-10T21:15:23.185123Z">182</current_value>
+</data>
+<data id="6">
+	<tag>ozone</tag>
+	<current_value at="2010-11-10T21:16:23.185123Z">292</current_value>
+</data>
+<data id="7">
+	<tag>volatile organic compound</tag>
+	<current_value at="2010-11-10T21:17:23.185123Z">300</current_value>
+</data>
+<data id="8">
+	<tag>water</tag>
+	<current_value at="2010-11-10T21:18:23.185123Z">279</current_value>
+</data>
+<data id="9">
+	<tag>temperature</tag>
+	<current_value at="2010-11-11T20:14:23.185123Z">23</current_value>
+</data>
+<data id="13">
+	<tag>volatile organic compound</tag>
+	<current_value at="2010-11-11T20:15:23.185123Z">350</current_value>
+</data>
+<data id="14">
+	<tag>water</tag>
+	<current_value at="2010-11-11T20:16:23.185123Z">428</current_value>
+</data>
+<data id="19">
+	<tag>volatile organic compound</tag>
+	<current_value at="2010-11-11T20:18:23.185123Z">79</current_value>
+</data>
+<data id="20">
+	<tag>water</tag>
+	<current_value at="2010-11-11T20:18:25.185123Z">95</current_value>
+</data>
+<data id="25">
+	<tag>volatile organic compound</tag>
+	<current_value at="2010-11-12T20:16:23.185123Z">254</current_value>
+</data>
+<data id="26">
+	<tag>water</tag>
+	<current_value at="2010-11-12T20:18:23.185123Z">326</current_value>
+</data>
+<data id="30">
+	<tag>ozone</tag>
+	<current_value at="2010-11-12T20:18:53.185123Z">65</current_value>
+</data>
+<data id="31">
+	<tag>volatile organic compound</tag>
+	<current_value at="2010-11-12T21:14:23.185123Z">52</current_value>
+</data>
+<data id="32">
+	<tag>water</tag>
+	<current_value at="2010-11-12T21:24:23.185123Z">29</current_value>
+</data>
+<data id="37">
+	<tag>volatile organic compound</tag>
+	<current_value at="2010-11-12T21:44:23.185123Z">218</current_value>
+</data>
+<data id="38">
+	<tag>water</tag>
+	<current_value at="2010-11-12T21:45:23.185123Z">303</current_value>
+</data>
+<data id="42">
+	<tag>ozone</tag>
+	<current_value at="680">72</current_value>
+</data>
+<data id="43">
+	<tag>volatile organic compound</tag>
+	<current_value at="681">61</current_value>
+</data>
+<data id="44">
+	<tag>water</tag>
+	<current_value at="681">39</current_value>
+</data>
+<data id="48">
+	<tag>ozone</tag>
+	<current_value at="771">92</current_value>
+</data>
+<data id="49">
+	<tag>volatile organic compound</tag>
+	<current_value at="771">121</current_value>
+</data>
+<data id="50">
+	<tag>water</tag>
+	<current_value at="772">157</current_value>
+</data>
+<data id="54">
+	<tag>ozone</tag>
+	<current_value at="862">143</current_value>
+</data>
+<data id="55">
+	<tag>volatile organic compound</tag>
+	<current_value at="863">143</current_value>
+</data>
+<data id="56">
+	<tag>water</tag>
+	<current_value at="863">123</current_value>
+</data>
+<data id="60">
+	<tag>ozone</tag>
+	<current_value at="952">57</current_value>
+</data>
+<data id="61">
+	<tag>volatile organic compound</tag>
+	<current_value at="952">65</current_value>
+</data>
+<data id="62">
+	<tag>water</tag>
+	<current_value at="953">75</current_value>
+</data>
+<data id="66">
+	<tag>ozone</tag>
+	<current_value at="1043">181</current_value>
+</data>
+<data id="67">
+	<tag>volatile organic compound</tag>
+	<current_value at="1044">241</current_value>
+</data>
+<data id="68">
+	<tag>water</tag>
+	<current_value at="1044">286</current_value>
+</data>
+<data id="72">
+	<tag>ozone</tag>
+	<current_value at="1134">52</current_value>
+</data>
+<data id="73">
+	<tag>volatile organic compound</tag>
+	<current_value at="1135">48</current_value>
+</data>
+<data id="74">
+	<tag>water</tag>
+	<current_value at="1136">45</current_value>
+</data>
+<data id="78">
+	<tag>ozone</tag>
+	<current_value at="1224">167</current_value>
+</data>
+<data id="79">
+	<tag>volatile organic compound</tag>
+	<current_value at="1225">239</current_value>
+</data>
+<data id="80">
+	<tag>water</tag>
+	<current_value at="1226">299</current_value>
+</data>
+<data id="84">
+	<tag>ozone</tag>
+	<current_value at="1316">60</current_value>
+</data>
+<data id="85">
+	<tag>volatile organic compound</tag>
+	<current_value at="1316">42</current_value>
+</data>
+<data id="86">
+	<tag>water</tag>
+	<current_value at="1317">25</current_value>
+</data>
+<data id="90">
+	<tag>ozone</tag>
+	<current_value at="1405">113</current_value>
+</data>
+<data id="91">
+	<tag>volatile organic compound</tag>
+	<current_value at="1406">174</current_value>
+</data>
+<data id="92">
+	<tag>water</tag>
+	<current_value at="1408">244</current_value>
+</data>
+<data id="96">
+	<tag>ozone</tag>
+	<current_value at="1498">87</current_value>
+</data>
+<data id="97">
+	<tag>volatile organic compound</tag>
+	<current_value at="1499">76</current_value>
+</data>
+<data id="98">
+	<tag>water</tag>
+	<current_value at="1500">62</current_value>
+</data>
+
+</foo>
+
