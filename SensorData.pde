@@ -3,9 +3,6 @@ public class SensorData {
   private ArrayList<Float> theValues;
   private ArrayList<String> theDateAndTime;
 
-  private ArrayList<PVector> theDailyValues;
-  private ArrayList<String> theDailyDates;
-
   private ArrayList<DailyData> theDailyData;
 
   private float theMin, theMax;
@@ -14,8 +11,6 @@ public class SensorData {
     theValues = new ArrayList<Float>();
     theDateAndTime = new ArrayList<String>();
 
-    theDailyValues = new ArrayList<PVector>();
-    theDailyDates = new ArrayList<String>();
     theDailyData = new ArrayList<DailyData>();
 
     theMin = MAX_FLOAT;
@@ -74,8 +69,6 @@ public class SensorData {
           }
 
           if ((tempDaily.size()>0) && (!lastDate.equals(""))) {
-            theDailyDates.add(lastDate);
-            theDailyValues.add(new PVector(tmin, tmax, tsum/tempDaily.size()));
             theDailyData.add(new DailyData(lastDate, tmin, tmax, tsum/tempDaily.size(), tempDaily.size()));
           }
           tempDaily.clear();
@@ -102,8 +95,6 @@ public class SensorData {
         tsum += tempDaily.get(ii);
       }
 
-      theDailyDates.add(lastDate);
-      theDailyValues.add(new PVector(tmin, tmax, tsum/tempDaily.size()));
       theDailyData.add(new DailyData(lastDate, tmin, tmax, tsum/tempDaily.size(), tempDaily.size()));
     }
     tempDaily.clear();
@@ -122,14 +113,6 @@ public class SensorData {
         theDailyData.get(i).max+" "+
         theDailyData.get(i).avg);
     }
-  }
-
-  public ArrayList<PVector> getDailyValues() {
-    return theDailyValues;
-  }
-
-  public ArrayList<String> getDailyDates() {
-    return theDailyDates;
   }
 
   public ArrayList<DailyData> getDailyData() {
