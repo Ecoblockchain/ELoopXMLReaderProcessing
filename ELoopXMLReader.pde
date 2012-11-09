@@ -17,10 +17,14 @@ void setup() {
   smooth();
   theValues = new HashMap<String, ArrayList<Float> >();
 
-  readData();
-  normalizeData();
-  displayData();
+  //readData();
+  //normalizeData();
+  //displayData();
 
+  XML xml = loadXML("data.xml");  
+  SensorData waterData = new SensorData("ozone", xml);
+  waterData.printInfo();  
+  ArrayList<PVector> waterDailyValues = waterData.getDailyValues();
 }
 
 void readData() {
