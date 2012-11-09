@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
-<foo>
+<eloop>
 <data id="0">
 	<tag>ozone</tag>
 	<current_value at="2010-11-10T20:14:23.185123Z">358</current_value>
+	<units>Celsius</units>
+	<comments>Good</comments>
 </data>
 <data id="1">
 	<tag>volatile organic compound</tag>
@@ -205,5 +207,5 @@
 	<current_value at="1500">62</current_value>
 </data>
 
-</foo>
+</eloop>
 
